@@ -1,0 +1,134 @@
+.token-page h1,
+.token-page .h1,
+.token-page h2,
+.token-page .h2,
+.token-page h3,
+.token-page .h3,
+#body.token-page,
+.token-page-table th,
+.token-page-table pre,
+.token-page-table p {
+    font-family: "Segoe UI Light", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.token-page pre.wrapped {
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: pre-wrap;
+}
+
+.token-page .warning-message-container {
+    margin-top: 20px;
+    padding: 0 10px;
+    color: #525252;
+    background: #EFDCA9; 
+    border: 1px solid #CCCCCC;
+}
+
+.token-page-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin: 0px 0px 20px 0px;
+    border-top: 1px solid #D4D4D4;
+}
+
+.token-page-table th {
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #D4D4D4;
+    padding: 5px 6px 5px 6px;
+}
+
+.token-page-table td {
+    border-bottom: 1px solid #D4D4D4;
+    padding: 10px 8px 10px 8px;
+    vertical-align: top;
+}
+
+.token-page-table pre,
+.token-page-table p {
+    margin: 0px;
+    padding: 0px;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+.token-page-table tbody tr:hover td {
+    background-color: #F3F3F3;
+}
+
+.token-page a:hover {
+    background-color: transparent;
+}
+
+.token-page .sample-header {
+    border: 2px solid #D4D4D4;
+    background: #00497E;
+    color: #FFFFFF;
+    padding: 8px 15px;
+    border-bottom: none;
+    display: inline-block;
+    margin: 10px 0px 0px 0px;
+}
+
+.token-page .sample-content {
+    display: block;
+    border-width: 0;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border: 2px solid #D4D4D4;
+    margin: 0px 0px 10px 0px;
+}
+
+.token-page .api-name {
+    width: 40%;
+}
+
+.token-page .api-documentation {
+    width: 60%;
+}
+
+.token-page .parameter-name {
+    width: 20%;
+}
+
+.token-page .parameter-documentation {
+    width: 40%;
+}
+
+.token-page .parameter-type {
+    width: 20%;
+}
+
+.token-page .parameter-annotations {
+    width: 20%;
+}
+
+.token-page h1,
+.token-page .h1 {
+    font-size: 36px;
+    line-height: normal;
+}
+
+.token-page h2,
+.token-page .h2 {
+    font-size: 24px;
+}
+
+.token-page h3,
+.token-page .h3 {
+    font-size: 20px;
+}
+
+#body.token-page {
+    font-size: 14px;
+    line-height: 143%;
+    color: #333;
+}
+
+.token-page a {
+    color: #0000EE;
+    text-decoration: none;
+}

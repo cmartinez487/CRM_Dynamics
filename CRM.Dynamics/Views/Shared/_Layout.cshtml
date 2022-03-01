@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden-sm hidden-xs">
+                        <div class="logo">
+                            <a href="~/Home/Index" class="logo-expanded">
+                                <img src="~/Image/logo@2x.png" class="img img-responsive" width="180" alt="" />
+                            </a>
+                        </div>
+                    </li>
+                    <li>@Html.ActionLink("CRM Dynamics - API", "Index", "Help", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("Generador de Token", "GeneradorToken", "Token", new { area = "" }, null)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+
+        
+    </div>
+    <div class="clearfix"></div>
+
+
+    <footer style="position: fixed; left: 0; bottom: 0; width: 100%;">
+        <div class="row-fluid">
+            <div class="span2" style="background:#fff;">
+                <img src="~/Image/vigilado.png" class="img img-responsive" style="height:45px;" />
+                <div class="span9 align-center">Efectivo Ltda. Calle 96 No. 12-55 Bogotá D.C., Colombia -  Contact Center +57 (1)   6510101 -  Todos los derechos reservados / &copy; @DateTime.Now.Year - CRM Dynamics</div>
+                
+            </div>
+        </div>
+        
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

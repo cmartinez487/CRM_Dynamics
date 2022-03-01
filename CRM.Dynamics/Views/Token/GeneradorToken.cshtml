@@ -1,0 +1,60 @@
+﻿@using System.Web.Http
+@using System.Web.Http.Controllers
+@using CRM.Dynamics.WebApi.Models
+@{
+    ViewBag.Title = "Bienvenidos al Generador de Token";
+}
+@model Token
+
+@using (Html.BeginForm("GeneradorToken", "Token", FormMethod.Post))
+{
+    <div class="buttonContent">
+        <div class="box-content">
+            <div class="container-fluid" style="width:90%">
+
+                <link type="text/css" href="~/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+                <header class="help-page">
+                    <div class="content-wrapper">
+                        <div class="float-left">
+                            <h1>@ViewBag.Title</h1>
+                        </div>
+                    </div>
+                </header>
+
+                <div id="body" class="help-page">
+
+                    <div class="content-wrapper">
+                        <h2>Por favor insertar su llave de usuario</h2>
+                        <Br />
+                        <h4>Usuario: </h4>
+                        <input name="user" id="user" type="text" size="200" />
+                        <Br />
+                        <h4>Password: </h4>
+                        <input name="pass" id="pass" type="text" size="200" />
+                        <Br />
+                        <h4>Nombre del Aplicativo:</h4>
+                        <input name="app" id="app" type="text" size="200" />
+                    </div>
+                    <br />
+                    <div>
+                        <button name="submit" type="submit" class="btn btn-primary">Generar</button>
+                    </div>
+                    @if (Model.token != "0" && Model.token != "error")
+                    {
+                        <div>
+                            <h2>Token Generado:</h2>
+                            <h3> @Html.DisplayTextFor(m => m.token)</h3>
+                        </div>
+                    }
+                    else
+                    if (Model.token == "error")
+                    {
+                        <h2>Token No Generado...</h2>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
+

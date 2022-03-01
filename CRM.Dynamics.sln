@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.Dynamics.WebApi", "CRM.Dynamics\CRM.Dynamics.WebApi.csproj", "{840CD23A-DA42-434B-BD91-BC24A10AD9DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.Dynamics.AccesoDatos", "CRM.Dynamics.AccesoDatos\CRM.Dynamics.AccesoDatos.csproj", "{C9740BDC-28C3-459E-9699-9C07F7ABD2C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.Dynamics.Comun", "CRM.Dynamics.Comun\CRM.Dynamics.Comun.csproj", "{96AAA918-A081-431B-A832-3A83B3590A1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.Dynamics.Entidades", "CRM.Dynamics.Entidades\CRM.Dynamics.Entidades.csproj", "{C1DE791B-8A0B-4412-B41B-A2615AE3DC64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.Dynamics.APIClient", "CRM.Dynamics.APIClient\CRM.Dynamics.APIClient.csproj", "{B5B3C96C-2D37-4F1E-8766-F6B2D6001947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.Dynamics.Framework", "CRM.Dynamics.Framework\CRM.Dynamics.Framework.csproj", "{87926171-D960-46D1-A88E-EE6CC721847C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{840CD23A-DA42-434B-BD91-BC24A10AD9DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840CD23A-DA42-434B-BD91-BC24A10AD9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840CD23A-DA42-434B-BD91-BC24A10AD9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840CD23A-DA42-434B-BD91-BC24A10AD9DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9740BDC-28C3-459E-9699-9C07F7ABD2C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9740BDC-28C3-459E-9699-9C07F7ABD2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9740BDC-28C3-459E-9699-9C07F7ABD2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9740BDC-28C3-459E-9699-9C07F7ABD2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AAA918-A081-431B-A832-3A83B3590A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AAA918-A081-431B-A832-3A83B3590A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AAA918-A081-431B-A832-3A83B3590A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AAA918-A081-431B-A832-3A83B3590A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1DE791B-8A0B-4412-B41B-A2615AE3DC64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DE791B-8A0B-4412-B41B-A2615AE3DC64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DE791B-8A0B-4412-B41B-A2615AE3DC64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DE791B-8A0B-4412-B41B-A2615AE3DC64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B3C96C-2D37-4F1E-8766-F6B2D6001947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B3C96C-2D37-4F1E-8766-F6B2D6001947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B3C96C-2D37-4F1E-8766-F6B2D6001947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B3C96C-2D37-4F1E-8766-F6B2D6001947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87926171-D960-46D1-A88E-EE6CC721847C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87926171-D960-46D1-A88E-EE6CC721847C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87926171-D960-46D1-A88E-EE6CC721847C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87926171-D960-46D1-A88E-EE6CC721847C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA33A0D6-487A-4D52-9F0C-80147A89FDCE}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.efecty.com.co/sieweb_principal
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CRM.Dynamics.AccesoDatos\\CRM.Dynamics.AccesoDatos.csproj
+		SccProjectName1 = CRM.Dynamics.AccesoDatos
+		SccLocalPath1 = CRM.Dynamics.AccesoDatos
+		SccProjectUniqueName2 = CRM.Dynamics.Comun\\CRM.Dynamics.Comun.csproj
+		SccProjectName2 = CRM.Dynamics.Comun
+		SccLocalPath2 = CRM.Dynamics.Comun
+		SccProjectUniqueName3 = CRM.Dynamics.Entidades\\CRM.Dynamics.Entidades.csproj
+		SccProjectName3 = CRM.Dynamics.Entidades
+		SccLocalPath3 = CRM.Dynamics.Entidades
+		SccProjectUniqueName4 = CRM.Dynamics\\CRM.Dynamics.WebApi.csproj
+		SccProjectName4 = CRM.Dynamics
+		SccLocalPath4 = CRM.Dynamics
+		SccProjectUniqueName5 = CRM.Dynamics.APIClient\\CRM.Dynamics.APIClient.csproj
+		SccProjectName5 = CRM.Dynamics.APIClient
+		SccLocalPath5 = CRM.Dynamics.APIClient
+		SccProjectUniqueName6 = CRM.Dynamics.Framework\\CRM.Dynamics.Framework.csproj
+		SccProjectName6 = CRM.Dynamics.Framework
+		SccLocalPath6 = CRM.Dynamics.Framework
+	EndGlobalSection
+EndGlobal

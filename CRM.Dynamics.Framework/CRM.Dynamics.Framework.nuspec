@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Efecty.CRM.Dynamics.Framework</id>
+    <version>1.0.0.1</version>
+    <title>CRM Dynamics Framework for Efecty</title>
+    <authors>Elkin Lesmes</authors>
+    <owners>Efecty</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Permite consumir el API CRM Dynamics de Efecty.</description>
+    <releaseNotes>Contiene métodos GET, POST, PUT y DELETE, métodos GetEntity y GetEntityList, y librería de entidades.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Efecty,CRM,Dynamics</tags>
+	<dependencies>
+		<group targetFramework=".NETFramework4.5">
+			<dependency id="Newtonsoft.Json" version="6.0.4" />
+		</group>
+	</dependencies>
+  </metadata>
+  <files>
+	<file src="bin\Release\Efecty.CRM.Dynamics.Entidades.dll" target="lib\net45" />
+  </files>
+</package>
